@@ -20,7 +20,7 @@ public class dSpawnManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             // Instantiate the enemy prefab at spawnposition transform
-            Instantiate(enemPrefab,spawnPosition);  // still trying to figure out how to fix spawning problem
+            Instantiate(enemPrefab,spawnPosition);
             UpdateSpawnPosition();
         }
     }
